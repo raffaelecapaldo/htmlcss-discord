@@ -47,7 +47,9 @@ a {
 
 .wflex {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .marginb {
@@ -69,23 +71,29 @@ a {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .dm-flex {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .df-flex {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .reverse {
-    flex-flow: row-reverse nowrap;
+    flex-flow: row-reverse wrap;
 }
 
 
@@ -223,6 +231,8 @@ ul li a:hover {
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-position: 176px 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
 }
 
