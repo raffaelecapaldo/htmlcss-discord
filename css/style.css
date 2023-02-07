@@ -35,7 +35,24 @@ a {
     text-decoration: none;
 }
 
+/* WAVE STYLE UTILITY */
+.wave {
+    filter:opacity(0.04);
+    background-color:url;
+}
 
+.rotate {
+    transform: rotateX(180deg);
+}
+
+.wflex {
+    display:flex;
+    flex-flow: row nowrap;
+}
+
+.marginb {
+    margin-bottom:4.5rem;
+}
 
 /* Color styles */
 :root {
@@ -204,6 +221,10 @@ a {
     padding-top: 4rem;
     width: 80%;
     margin: 0 auto;
+}
+/* WIDTH FOR ADAPTABILITY */
+.topfooter ul {
+    width: 20%;
 }
 
 .topfooter a {
