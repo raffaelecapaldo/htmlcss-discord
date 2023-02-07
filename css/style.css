@@ -37,7 +37,6 @@ header
     flex-flow: row wrap;
     justify-content:space-between;
     align-items:flex-start;
-    margin-bottom:10rem;
 }
 
 .dm-flex {
@@ -52,7 +51,14 @@ header
 }
 
 
-.headerstyle {
+/* MAIN HEADER TITLE */
+.header-content h1 {
+    font-size:2.8rem;
+}
+
+ /* MAIN HEADER CONTENT */
+
+ .headerstyle {
     width: 80%;
     margin: 0 auto;
     padding-top:1.3rem;
@@ -67,15 +73,9 @@ header
 .header-content {
     max-width: 40%;
     margin:0 auto;
-    
 }
 
-/* MAIN HEADER TITLE */
-.header-content h1 {
-    font-size:2.8rem;
-}
 
- /* MAIN HEADER CONTENT */
 .header-content p {
     padding-top:1.5rem;
     padding-bottom:1.0rem;
@@ -100,10 +100,11 @@ header
     padding-bottom:16rem;
 }
 
+/* BUTTON */
+
 .buttonstyle {
     padding:1.1em;
     border-radius:2rem;
-    margin-left:1.5rem;
     font-size:1.1em;
     font-weight: 500;
 }
@@ -116,7 +117,8 @@ header
 
 .browserheader {
     background-color: var(--footercolor);
-    color:var(--primarycolor)
+    color:var(--primarycolor);
+    margin-left:1.5rem;
 }
 
 .loginheader {
@@ -126,6 +128,12 @@ header
     display:inline-block;
     padding:0.8rem;
     font-size:0.9rem;
+}
+
+.macmainstyle {
+    background-color: var(--brandcolor);
+    color:var(--primarycolor);
+    padding:0.8rem;
 }
 
 /* MAIN SECTION */
@@ -145,4 +153,21 @@ header
 
 .even {
     background-color: var(--bg-secondarycolor);
+}
+
+/* LAST MAIN SECTION STYLE */
+.lastsection {
+    width: 50%;
+    margin:0 auto;
+    padding:5rem 0 10rem 0;
+    text-align:center;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: 176px 42px;
+
+}
+
+.lastsection h3 {
+    padding-bottom:3rem;
+    font-size:1.8rem;
 }
