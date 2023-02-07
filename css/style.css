@@ -301,42 +301,47 @@ ul li a:hover {
 /* DOWNLOAD PAGE (BONUS) */
 
 :root {
-    --primarydc:#23272a;
+    --primarydc: #23272a;
 
 }
-
+/* BACKGROUND HEADER */
 #downloadheader {
     background-color: var(--primarydc);
-    color:white;
+    color: white;
 }
-
+/* TEXT STYLE HEADER */
 .textheader {
-    display:flex;
-    flex-flow: column wrap;
-    align-items: baseline;
+    display: inline-block;
     width: 35%;
-    margin-left: 9rem;
-    margin-top:3rem;
+    margin-left: 11.5rem;
+    margin-top: 3rem;
 
 }
-
+/* TITLE STILE HEADER */
 .textheader h1 {
-    font-size:56px;
+    font-size: 56px;
     line-height: 58px;
 }
-
+/* DESCRIPTION STYLE HEADER */
 .textheader p {
     margin: 2rem 0rem 2rem 0;
+    margin-top: 3rem;
 }
-
+/* BOX OS WINDOWS */
 .osinfo {
     padding-left: 2rem;
 }
 
-.textheader p {
-    margin-top:3rem;
+
+/* CONTAINER IMG */
+.imgheader {
+    width: 43%;
+    float: right;
 }
 
-.dmainheader {
-    padding-bottom:5rem;
+/* SVG DIMENSION */
+.imgheader img {
+    width: 667px;
+    height: 461px;
+    ;
 }
