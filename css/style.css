@@ -37,8 +37,8 @@ a {
 
 /* WAVE STYLE UTILITY */
 .wave {
-    filter:opacity(0.04);
-    background-color:url;
+    filter: opacity(0.04);
+    background-color: url;
 }
 
 .rotate {
@@ -46,12 +46,12 @@ a {
 }
 
 .wflex {
-    display:flex;
+    display: flex;
     flex-flow: row nowrap;
 }
 
 .marginb {
-    margin-bottom:4.5rem;
+    margin-bottom: 4.5rem;
 }
 
 /* Color styles */
@@ -124,7 +124,7 @@ a {
 
 /* HEADER NAVIGATION LINKS COLOR */
 .dh-flex ul li a {
-    color:var(--primarycolor);
+    color: var(--primarycolor);
 }
 
 /* added to not break padding when resizing page */
@@ -219,9 +219,13 @@ a {
 
 .topfooter {
     padding-top: 4rem;
-    width: 80%;
-    margin: 0 auto;
 }
+
+.centered{
+width: 80%;
+margin: 0 auto;
+}
+
 /* WIDTH FOR ADAPTABILITY */
 .topfooter ul {
     width: 20%;
@@ -233,23 +237,46 @@ a {
     padding-top: 0.5rem;
 
 }
+
 /* MAIN ANCHOR OF EVERY NAV LIST */
+.topfooter {
+    padding-bottom: 3rem;
+    border-bottom:1px solid var(--brandcolor);
+
+}
 .topfooter .titlefooter {
     color: var(--brandcolor);
 }
+
+.bottomfooter {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-top:1.3rem;
+    padding-bottom:1.5rem;
+    
+}
+
 /* SOCIAL SECTION WIDTH */
 .langsocial {
     width: 13%;
 }
+
 /* TITLE STYLE SOCIAL SECTION */
 .langsocial h5 {
     font-size: 1.5rem;
     line-height: 30px;
-    padding-bottom: 1rem;
 }
 
 #flagita {
     width: 20px;
+
+}
+
+.register {
+    font-size:0.7rem;
+    border-radius:30px;
+    padding:10px 17px 10px 17px;
 
 }
 
