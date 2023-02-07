@@ -30,6 +30,11 @@ select {
     border: none;
 }
 
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
 
 
 /* Color styles */
@@ -98,6 +103,11 @@ select {
     line-height: 1.8rem;
     font-size: 18px;
 
+}
+
+/* HEADER NAVIGATION LINKS COLOR */
+.dh-flex ul li a {
+    color:var(--primarycolor);
 }
 
 /* added to not break padding when resizing page */
@@ -197,8 +207,6 @@ select {
 }
 
 .topfooter a {
-    display: inline-block;
-    text-decoration: none;
     color: var(--primarycolor);
     font-size: 0.9rem;
     padding-top: 0.5rem;
