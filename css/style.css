@@ -1,0 +1,149 @@
+/* GENERAL AND RESET */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+li {
+    list-style:none;
+}
+
+header 
+{
+    background-color: var(--headercolor);
+    min-width: 1030px;
+    margin-bottom:8rem;
+
+}
+
+
+
+/* Color styles */
+:root {
+--primarycolor: #FFFFFF;
+--bg-secondarycolor: #f6f6f6;
+--brandcolor: #7289DA;
+--footercolor: #23272A;
+--headercolor: #255EE9;
+}
+
+/* FLEX RULES */
+.dh-flex {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:10rem;
+}
+
+.dm-flex {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.reverse{
+    flex-flow:row-reverse nowrap;
+}
+
+
+.headerstyle {
+    width: 80%;
+    margin: 0 auto;
+    padding-top:1.3rem;
+    padding-bottom:3rem;
+    color:var(--primarycolor)
+}
+
+.headerstyle a:not(.loginheader) {
+    padding-left:3rem;
+}
+
+.header-content {
+    max-width: 40%;
+    margin:0 auto;
+    
+}
+
+/* MAIN HEADER TITLE */
+.header-content h1 {
+    font-size:2.8rem;
+}
+
+ /* MAIN HEADER CONTENT */
+.header-content p {
+    padding-top:1.5rem;
+    padding-bottom:1.0rem;
+    line-height: 1.8rem;
+    font-size:18px;
+
+}
+
+/* added to not break padding when resizing page */
+.header-content a {
+    display:inline-block;
+    margin-bottom:1.1rem;
+}
+
+.jumbotron {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    text-align:center;
+    padding-top:5rem;
+    color:var(--primarycolor);
+    flex-wrap: wrap;
+    padding-bottom:16rem;
+}
+
+.buttonstyle {
+    padding:1.1em;
+    border-radius:2rem;
+    margin-left:1.5rem;
+    font-size:1.1em;
+    font-weight: 500;
+}
+
+/* OTHER STYLE OF BUTTONS */
+.macheader {
+    background-color: var(--primarycolor);
+    color:var(--footercolor)
+}
+
+.browserheader {
+    background-color: var(--footercolor);
+    color:var(--primarycolor)
+}
+
+.loginheader {
+    background-color: var(--primarycolor);
+    color:var(--footercolor);
+    text-align:center;
+    display:inline-block;
+    padding:0.8rem;
+    font-size:0.9rem;
+}
+
+/* MAIN SECTION */
+.textitem {
+    max-width: 20%;
+}
+
+.textitem h2 {
+    font-size:2.8rem;
+    padding-bottom: 1.1rem;
+    padding-top:1.3rem;
+}
+
+.imgitem {
+    padding-right:1.5rem;
+}
+
+.even {
+    background-color: var(--bg-secondarycolor);
+}
