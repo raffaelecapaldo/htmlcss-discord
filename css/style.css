@@ -20,6 +20,11 @@ header
 
 }
 
+footer {
+    background-color:var(--footercolor);
+    color:white;
+}
+
 
 
 /* Color styles */
@@ -46,6 +51,11 @@ header
     align-items:flex-start;
 }
 
+.df-flex{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+}
 .reverse{
     flex-flow:row-reverse nowrap;
 }
@@ -170,4 +180,34 @@ header
 .lastsection h3 {
     padding-bottom:3rem;
     font-size:1.8rem;
+}
+
+/* TOPFOOTER SECTION */
+
+.topfooter {
+    padding-top:4rem;
+    width: 80%;
+    margin:0 auto;
+}
+
+.topfooter a {
+    display:inline-block;
+    text-decoration: none;
+    color:var(--primarycolor);
+    font-size:0.9rem;
+    padding-top:0.5rem;
+
+}
+
+.topfooter .titlefooter{
+    color:var(--brandcolor);
+}
+
+.langsocial {
+    width: 13%;
+}
+
+.langsocial h5 {
+    font-size:1.5rem;
+    line-height: 30px;
 }
