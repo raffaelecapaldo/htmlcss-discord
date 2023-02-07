@@ -1,7 +1,7 @@
 /* GENERAL AND RESET */
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -10,140 +10,146 @@ body {
 }
 
 li {
-    list-style:none;
+    list-style: none;
 }
 
-header 
-{
+header {
     background-color: var(--headercolor);
-    margin-bottom:8rem;
+    margin-bottom: 8rem;
 
 }
 
 footer {
-    background-color:var(--footercolor);
-    color:white;
+    background-color: var(--footercolor);
+    color: white;
+}
+
+select {
+    color: var(--primarycolor);
+    background-color: var(--footercolor);
+    border: none;
 }
 
 
 
 /* Color styles */
 :root {
---primarycolor: #FFFFFF;
---bg-secondarycolor: #f6f6f6;
---brandcolor: #7289DA;
---footercolor: #23272A;
---headercolor: #255EE9;
+    --primarycolor: #FFFFFF;
+    --bg-secondarycolor: #f6f6f6;
+    --brandcolor: #7289DA;
+    --footercolor: #23272A;
+    --headercolor: #255EE9;
 }
 
 /* FLEX RULES */
 .dh-flex {
-    display:flex;
+    display: flex;
     flex-flow: row wrap;
-    justify-content:space-between;
-    align-items:flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .dm-flex {
-    display:flex;
+    display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-items:flex-start;
+    align-items: flex-start;
 }
 
-.df-flex{
-    display:flex;
-    flex-flow:row wrap;
-    justify-content:space-around;
+.df-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
-.reverse{
-    flex-flow:row-reverse nowrap;
+
+.reverse {
+    flex-flow: row-reverse nowrap;
 }
 
 
 /* MAIN HEADER TITLE */
 .header-content h1 {
-    font-size:2.8rem;
+    font-size: 2.8rem;
 }
 
- /* MAIN HEADER CONTENT */
+/* MAIN HEADER CONTENT */
 
- .headerstyle {
+.headerstyle {
     width: 80%;
     margin: 0 auto;
-    padding-top:1.3rem;
-    padding-bottom:3rem;
-    color:var(--primarycolor)
+    padding-top: 1.3rem;
+    padding-bottom: 3rem;
+    color: var(--primarycolor)
 }
 
 .headerstyle a:not(.loginheader) {
-    padding-left:3rem;
+    padding-left: 3rem;
 }
 
 .header-content {
     max-width: 40%;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 
 .header-content p {
-    padding-top:1.5rem;
-    padding-bottom:1.0rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.0rem;
     line-height: 1.8rem;
-    font-size:18px;
+    font-size: 18px;
 
 }
 
 /* added to not break padding when resizing page */
 .header-content a {
-    display:inline-block;
-    margin-bottom:1.1rem;
+    display: inline-block;
+    margin-bottom: 1.1rem;
 }
 
 .jumbotron {
     background-image: url("../img/jumbo.png");
     background-size: cover;
-    text-align:center;
-    padding-top:5rem;
-    color:var(--primarycolor);
+    text-align: center;
+    padding-top: 5rem;
+    color: var(--primarycolor);
     flex-wrap: wrap;
-    padding-bottom:16rem;
+    padding-bottom: 16rem;
 }
 
 /* BUTTON */
 
 .buttonstyle {
-    padding:1.1em;
-    border-radius:2rem;
-    font-size:1.1em;
+    padding: 1.1em;
+    border-radius: 2rem;
+    font-size: 1.1em;
     font-weight: 500;
 }
 
 /* OTHER STYLE OF BUTTONS */
 .macheader {
     background-color: var(--primarycolor);
-    color:var(--footercolor)
+    color: var(--footercolor)
 }
 
 .browserheader {
     background-color: var(--footercolor);
-    color:var(--primarycolor);
-    margin-left:1.5rem;
+    color: var(--primarycolor);
+    margin-left: 1.5rem;
 }
 
 .loginheader {
     background-color: var(--primarycolor);
-    color:var(--footercolor);
-    text-align:center;
-    display:inline-block;
-    padding:0.8rem;
-    font-size:0.9rem;
+    color: var(--footercolor);
+    text-align: center;
+    display: inline-block;
+    padding: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .macmainstyle {
     background-color: var(--brandcolor);
-    color:var(--primarycolor);
-    padding:0.8rem;
+    color: var(--primarycolor);
+    padding: 0.8rem;
 }
 
 /* MAIN SECTION */
@@ -152,13 +158,13 @@ footer {
 }
 
 .textitem h2 {
-    font-size:2.8rem;
+    font-size: 2.8rem;
     padding-bottom: 1.1rem;
-    padding-top:1.3rem;
+    padding-top: 1.3rem;
 }
 
 .imgitem {
-    padding-right:1.5rem;
+    padding-right: 1.5rem;
 }
 
 .even {
@@ -168,9 +174,9 @@ footer {
 /* LAST MAIN SECTION STYLE */
 .lastsection {
     width: 50%;
-    margin:0 auto;
-    padding:5rem 0 10rem 0;
-    text-align:center;
+    margin: 0 auto;
+    padding: 5rem 0 10rem 0;
+    text-align: center;
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-position: 176px 42px;
@@ -178,36 +184,42 @@ footer {
 }
 
 .lastsection h3 {
-    padding-bottom:3rem;
-    font-size:1.8rem;
+    padding-bottom: 3rem;
+    font-size: 1.8rem;
 }
 
 /* TOPFOOTER SECTION */
 
 .topfooter {
-    padding-top:4rem;
+    padding-top: 4rem;
     width: 80%;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .topfooter a {
-    display:inline-block;
+    display: inline-block;
     text-decoration: none;
-    color:var(--primarycolor);
-    font-size:0.9rem;
-    padding-top:0.5rem;
+    color: var(--primarycolor);
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
 
 }
-
-.topfooter .titlefooter{
-    color:var(--brandcolor);
+/* MAIN ANCHOR OF EVERY NAV LIST */
+.topfooter .titlefooter {
+    color: var(--brandcolor);
 }
-
+/* SOCIAL SECTION WIDTH */
 .langsocial {
     width: 13%;
 }
-
+/* TITLE STYLE SOCIAL SECTION */
 .langsocial h5 {
-    font-size:1.5rem;
+    font-size: 1.5rem;
     line-height: 30px;
+    padding-bottom: 1rem;
+}
+
+#flagita {
+    width: 20px;
+
 }
