@@ -179,6 +179,22 @@ a {
     padding: 0.8rem;
 }
 
+/* BUTTON HOVER EFFECTS */
+
+.macheader:hover,
+.loginheader:hover {
+    color: var(--brandcolor);
+}
+
+.buttonstyle:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
 /* MAIN SECTION */
 .textitem {
     max-width: 20%;
@@ -221,9 +237,9 @@ a {
     padding-top: 4rem;
 }
 
-.centered{
-width: 80%;
-margin: 0 auto;
+.centered {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* WIDTH FOR ADAPTABILITY */
@@ -241,20 +257,21 @@ margin: 0 auto;
 /* MAIN ANCHOR OF EVERY NAV LIST */
 .topfooter {
     padding-bottom: 3rem;
-    border-bottom:1px solid var(--brandcolor);
+    border-bottom: 1px solid var(--brandcolor);
 
 }
+
 .topfooter .titlefooter {
     color: var(--brandcolor);
 }
 
 .bottomfooter {
-    display:flex;
+    display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding-top:1.3rem;
-    padding-bottom:1.5rem;
-    
+    padding-top: 1.3rem;
+    padding-bottom: 1.5rem;
+
 }
 
 /* SOCIAL SECTION WIDTH */
@@ -274,9 +291,9 @@ margin: 0 auto;
 }
 
 .register {
-    font-size:0.7rem;
-    border-radius:30px;
-    padding:10px 17px 10px 17px;
+    font-size: 0.7rem;
+    border-radius: 30px;
+    padding: 10px 17px 10px 17px;
 
 }
 
