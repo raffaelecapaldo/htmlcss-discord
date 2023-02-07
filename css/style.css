@@ -345,3 +345,9 @@ ul li a:hover {
     height: 461px;
     ;
 }
+
+.clearfix::after {
+    display:table;
+    content:"";
+    clear:both;
+}
