@@ -16,7 +16,6 @@ li {
 header 
 {
     background-color: var(--headercolor);
-    min-width: 1030px;
     margin-bottom:8rem;
 
 }
@@ -35,7 +34,7 @@ header
 /* FLEX RULES */
 .dh-flex {
     display:flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content:space-between;
     align-items:flex-start;
     margin-bottom:10rem;
