@@ -297,3 +297,46 @@ ul li a:hover {
     padding-right: 20px;
     padding-top: 15px;
 }
+
+/* DOWNLOAD PAGE (BONUS) */
+
+:root {
+    --primarydc:#23272a;
+
+}
+
+#downloadheader {
+    background-color: var(--primarydc);
+    color:white;
+}
+
+.textheader {
+    display:flex;
+    flex-flow: column wrap;
+    align-items: baseline;
+    width: 35%;
+    margin-left: 9rem;
+    margin-top:3rem;
+
+}
+
+.textheader h1 {
+    font-size:56px;
+    line-height: 58px;
+}
+
+.textheader p {
+    margin: 2rem 0rem 2rem 0;
+}
+
+.osinfo {
+    padding-left: 2rem;
+}
+
+.textheader p {
+    margin-top:3rem;
+}
+
+.dmainheader {
+    padding-bottom:5rem;
+}
